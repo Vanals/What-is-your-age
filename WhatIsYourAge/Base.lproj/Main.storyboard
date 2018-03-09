@@ -44,7 +44,7 @@
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonFindAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YAs-pG-zNf"/>
+                                    <action selector="buttonFindAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igu-Yu-zYC"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ofh-vJ-MNo">
@@ -68,7 +68,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="buttonFindAge" destination="VWA-hV-TUE" id="QbZ-Gi-vTl"/>
                         <outlet property="findedAge" destination="gq2-En-l6d" id="7Ub-8t-QZV"/>
                         <outlet property="yearTextArea" destination="ofh-vJ-MNo" id="VnY-E5-trY"/>
                     </connections>
